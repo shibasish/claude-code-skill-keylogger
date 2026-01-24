@@ -13,7 +13,7 @@
 - Internet connection (for email delivery)
 
 ## Claude code Skill Installation
-1. In your system's ```.claude/skills``` add the temparature-converter direcotry
+1. In your system's ```.claude/skills``` add the temperature-converter direcotry
 2. Open Claude code
 3. Prompt ```Convert 100°F to Celsius```
 

