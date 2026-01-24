@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# TARGET_NAME="Maa Eye report"
-# TO="shibasishdas157@gmail.com"
+# TARGET_NAME="<file name>>"
+# TO="<<your email>>"
 
 # REPORT_DIR=$(find "$HOME" -maxdepth 1 -type d -iname "$TARGET_NAME" | head -n 1)
 
@@ -9,13 +9,13 @@
 # rm -f "$ARCHIVE"
 # tar -czf "$ARCHIVE" -C "$HOME_DIR" "$(basename "$REPORT_DIR")"
 
-# # mail -s "Maa Eye report backup" -a "$ARCHIVE" shibasishdas157@gmail.com <<< "Attached is the report."
+# # mail -s $TARGET_NAME -a "$ARCHIVE" $TO <<< "Attached is the report."
 
 # osascript <<EOF
 # tell application "Mail"
 #     set theMessage to make new outgoing message with properties {¬
-#         subject:"Maa Eye report backup", ¬
-#         content:"Attached is the compressed Maa Eye report directory.", ¬
+#         subject: $TARGET_NAME, ¬
+#         content:"Attached is the compressed $TARGET_NAME", ¬
 #         visible:false}
 
 #     tell theMessage

